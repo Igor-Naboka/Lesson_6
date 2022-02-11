@@ -1,0 +1,233 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bitter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&dispaly=swap");
+
+/* universal attributes */
+
+body {
+  font-family: Bitter, sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  font-style: normal;
+  color: #000000;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+/* other attributes */
+
+/* header attributes */
+.header {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.header-btn {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.header-btn1 {
+
+}
+
+.header-btn2 {
+
+}
+
+.header-btn3 {
+  
+}
+
+/* main attributes */
+
+.main {
+}
+.main__container {
+}
+.main-text1 {
+}
+.main-text2 {
+}
+.main-text3 {
+}
+.main-text4 {
+}
+.main-text5 {
+}
+.main-btn1 {
+}
+.btn1 {
+}
+.main-btn2 {
+}
+.btn2 {
+}
+.main-btn3 {
+}
+.btn3 {
+}
+.main-btn4 {
+}
+.btn4 {
+}
+.main-btn5 {
+}
+.btn5 {
+}
+.main-btn6 {
+}
+.btn6 {
+}
+.main-btn7 {
+}
+.btn7 {
+}
+/* footer attributes */
+
+.footer {
+}
+
+.footer-btn {
+}
+
+/* СВОЙСТВА ОФОРМЛЕНИЯ БЛОКОВ */
+
+/* BORDER - граница */
+
+.block {
+  /* 
+	Анатомия:
+	свойство: толщина стиль цвет;
+	*/
+  /* 
+	Стиль:
+	solid - прямая
+	dotted - точки
+	dashed - пунктир
+	double - двойная
+	*/
+
+  /* Свойства сторон */
+  /* 
+	border-top: ;
+	border-right: ;
+	border-bottom: ;
+	border-left: ;
+	*/
+
+  /* Универсальное свойство 
+	(для всех сторон сразу) 
+	*/
+  /*
+	border: 10px solid #000;
+	border-top: none;
+	*/
+}
+
+.inline {
+  /*
+	border-bottom: 2px dotted green;
+	line-height: 125%;
+	*/
+}
+.inline-block {
+  /*
+	border: 2px dotted green;
+	*/
+}
+
+/* border-radius - граница */
+/*
+Устанавливает радиус скругления уголков блока.
+*/
+
+/*
+border-radius: верхний-левый верхний-правый нижний-правый нижний-левый; 
+
+Круг:
+border-radius: 50%;
+*/
+
+.block {
+  /*
+	padding: 20px;
+	border-radius: 20px;
+	*/
+}
+.inline {
+  /* border-radius: 20px; */
+}
+.inline-block {
+}
+.image {
+  /*
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	*/
+}
+
+/* outline - обводка 
+Универсальное свойство, одновременно устанавливающее цвет, 
+стиль и толщину внешней границы на всех четырех сторонах элемента. 
+*/
+
+.block {
+  /* outline: 10px dashed #000; */
+}
+.inline-block {
+  /* outline: 10px dashed #000; */
+}
+.inline {
+  /* outline: 5px dashed #000; */
+}
+
+/* box-shadow - Добавляет тень к элементу. */
+/* Анатомия
+box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус(размытие) расстояние(размер) цвет
+*/
+
+/*
+Можно добавить много теней. 
+Можно добавить внутренную тень. 
+На тень влияет свойство border-radius.
+*/
+
+.block {
+  /* width: 300px; */
+  /* margin: 0px 0px 30px 0px; */
+  /* box-shadow: 10px 10px 10px 10px #000; */
+  /* inset - внутрення тень*/
+  /* box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red; */
+  /* border-radius: 10px; */
+}
+
+/* opacity - Определяет уровень прозрачности элемента.
+	от 0 до 1
+ */
+
+.block {
+  /* opacity: 0.5; */
+}
+
+/* visibility - устанавливает враимодействие с объектом */
+
+.block {
+  /* visibility: hidden; */
+}
+.block-two {
+  /* opacity: 0; */
+}
+.block-three {
+  /* display: none; */
+}
