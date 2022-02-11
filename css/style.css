@@ -31,8 +31,6 @@ body {
 /*  ----main classes---- */
 
 /* title block */
-.main {
-}
 
 .title-block {
   text-align: center;
@@ -53,9 +51,6 @@ body {
 }
 
 /* reviews block */
-
-.reviews-block {
-}
 
 .reviews-block-text {
   display: inline-block;
@@ -90,9 +85,6 @@ body {
   font-family: Cabin, sans-serif;
   color: #b8b8b8;
   margin-bottom: 101px;
-}
-
-.revievs-mugs {
 }
 
 .reviews-img {
