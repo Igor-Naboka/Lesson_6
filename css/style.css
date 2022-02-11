@@ -30,6 +30,10 @@ body {
 
 /*  ----main classes---- */
 
+.main {
+  margin-bottom: 50px;
+}
+
 /* title block */
 
 .title-block {
@@ -98,6 +102,23 @@ body {
 /* footer classes */
 
 .footer-block {
+  max-width: 400px;
   min-height: 40px;
-  margin-bottom: 100px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.footer-block-text {
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 230px;
+  padding: 10px 15px;
+  background: #d8ff4a;
+  color: #0099ff;
+  border-radius: 10px;
+  border-color: #d8ff4a;
+  box-shadow: 5px 5px 50px #d8ff4a;
 }
